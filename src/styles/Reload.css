@@ -1,0 +1,19 @@
+.button {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.hoverable {
+  display: inline-block;
+  border-radius: 30px;
+
+  width: 15px;
+  height: 15px;
+  background: center url(../img/refresh.png) no-repeat;
+  background-size: contain;
+}
+
+.hoverable:hover {
+  background-image: url(../img/refresh.gif);
+}
